@@ -1,6 +1,7 @@
 <template>
 
   <div class="home">
+    <h3>v.1.0.2</h3>
     <HelloWorld :num="num" @addMethod="addfun" @reduceMethod="reducefun" ref="hellomsg" msg="边">
       <div >我是HelloWorld组件中的插槽</div>
    </HelloWorld>
@@ -67,9 +68,7 @@
 
       </div>
     </van-overlay>
-    <div v-for="(item,index) in timers">
-      {{item}}
-    </div>
+
   </div>
 
 
@@ -113,9 +112,18 @@ export default {
     this.demo()
     this.monthDayList=moment("2021-02", "YYYY-MM").daysInMonth()
     this.dealWi()
+    this.lodashMethods()
   },
   computed: {},
   methods: {
+    lodashMethods(){
+      const arr1=[1,2,3,4];
+      const arr2=[5,6]
+     const res=this.$lodash.chunk(['a', 'b', 'c', 'd'], 2);
+     const res1=this.$lodash.concat([100,101],arr1,arr2);
+      console.log('$lodashres',res);
+      console.log('$lodashres',res1);
+    },
     dealWi(){
       let fullmonthDayList=moment("2021-02", "YYYY-MM").daysInMonth()
       for(let i=1;i<=fullmonthDayList;i++){

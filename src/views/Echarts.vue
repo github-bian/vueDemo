@@ -51,16 +51,16 @@ export default {
 //发送get请求
     show() {
       // 用/api來代理'http://localhost:8083'
-      this.$axios
-          .get("/api/blog/list")
-          .then(res => {
-            console.log('获取到数据了',res);
-            this.list = res.data.result;
-            // }
-          })
-          .catch(e => {
-            console.log(e);
-          });
+      // this.$axios
+      //     .get("/api/blog/list")
+      //     .then(res => {
+      //       console.log('获取到数据了',res);
+      //       this.list = res.data.result;
+      //       // }
+      //     })
+      //     .catch(e => {
+      //       console.log(e);
+      //     });
       console.log('11111')
     },
 
