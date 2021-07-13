@@ -1,6 +1,7 @@
 <template>
 
   <div class="home">
+    <h3>v1.0.3</h3>
     <HelloWorld :num="num" @addMethod="addfun" @reduceMethod="reducefun" ref="hellomsg" msg="边">
       <div >我是HelloWorld组件中的插槽</div>
    </HelloWorld>
