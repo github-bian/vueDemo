@@ -5,11 +5,11 @@
       <div >我是HelloWorld组件中的插槽</div>
    </HelloWorld>
 
-    <van-button type="danger" class="button" @click="run">点我接受子组件数据</van-button>
+    <van-button type="danger" class="button" @click="run">点我接111111111</van-button>
     <div>{{ age }}</div>
-    <van-button type="warning" @click="setNameBian">不带参设置为边龙龙</van-button>
+    <van-button type="warning" @click="setNameBian">不带参设置为9999</van-button>
     <div>{{ username }}</div>
-    <van-button type="warning" @click="setNameZhao">带参设置为赵得住</van-button>
+    <van-button type="warning" @click="setNameZhao">带参设置为1111111</van-button>
 
     <van-button type="warning" @click="showT">遮罩层</van-button>
     <van-overlay :show="show" @click="show = false">
