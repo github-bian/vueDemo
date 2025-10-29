@@ -95,7 +95,7 @@ export default {
       currentMonth: null,// 2021-02
       nowMonth: moment().format('M月'),// 2021-02
       show: false,
-      outName: '赵得住',
+      outName: '123',
       username: this.$store.state.username,
       age: 0,
       num: 1,
