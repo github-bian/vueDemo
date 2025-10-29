@@ -15,7 +15,7 @@ export default {
   components: {Child},
   data() {
     return{
-      tempdata: 'i am father'
+      tempdata: 'i am father！！！！！！！！！！！！！！！！'
     }
   },
   methods: {
