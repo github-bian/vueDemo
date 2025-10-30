@@ -4,8 +4,7 @@
     <HelloWorld :num="num" @addMethod="addfun" @reduceMethod="reducefun" ref="hellomsg" msg="边">
       <div >我是HelloWorld组件中的插槽</div>
    </HelloWorld>
-
-    <van-button type="danger" class="button" @click="run">点我接111111111</van-button>
+    <van-button type="danger" class="button" @click="run">点我接1111111122222</van-button>
     <div>{{ age }}</div>
     <van-button type="warning" @click="setNameBian">不带参设置为9999</van-button>
     <div>{{ username }}</div>
