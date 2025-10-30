@@ -12,7 +12,7 @@
        <div>  结果：{{num}}</div>
       <van-divider />
       <van-tab v-for="(item,index) in navList" :title="item.title" @cahnge="onClick(item.title)">
-        {{ item.name }} <br>  时间过滤器:{{timer|dealTime}}
+        {{ item.name }} <br>  11111时间过滤器:{{timer|dealTime}}
 
         <div class="news" :class="['','red','pink','green','orgin'][dd.type]"  v-for="(dd,ss) in news">
           <button @click="deleteIndex(ss)">删除</button>

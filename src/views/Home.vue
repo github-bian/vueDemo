@@ -6,7 +6,7 @@
    </HelloWorld>
     <van-button type="danger" class="button" @click="run">点我接1111111122222</van-button>
     <div>{{ age }}</div>
-    <van-button type="warning" @click="setNameBian">不带参设置为9999</van-button>
+    <van-button type="warning" @click="setNameBian">不带参设111111置为9999</van-button>
     <div>{{ username }}</div>
     <van-button type="warning" @click="setNameZhao">带参设置为1111111</van-button>
 
