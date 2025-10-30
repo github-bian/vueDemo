@@ -6,9 +6,9 @@
       <div >我是FUck u  uuu uu u uu u u u u u u槽</div>
 
    </HelloWorld>
-    <van-button type="danger" class="button" @click="run">点askf ajfb adfjna fkoihabhwkiadjbaf hafdpna khfijpa</van-button>
+    <van-button type="danger" class="button" @click="run">点!!!!!!!!!!!!</van-button>
     <div>{{ age }}</div>
-    <van-button type="warning" @click="setNameBian">不带参设11kahsbdkajdbkasdka999</van-button>
+    <van-button type="warning" @click="setNameBian">不带参</van-button>
     <div>{{ username }}</div>
     <van-button type="warning" @click="setNameZhao">带参设置为1111111</van-button>
 
