@@ -2,11 +2,13 @@
 
   <div class="home">
     <HelloWorld :num="num" @addMethod="addfun" @reduceMethod="reducefun" ref="hellomsg" msg="边">
-      <div >我是是是是事实我是HelloWorld组件中的插槽HelloWorldHelloWorldHelloWorldHelloWorld</div>
+
+      <div >我是FUck u  uuu uu u uu u u u u u u槽</div>
+
    </HelloWorld>
-    <van-button type="danger" class="button" @click="run">点我接1111111122222</van-button>
+    <van-button type="danger" class="button" @click="run">点askf ajfb adfjna fkoihabhwkiadjbaf hafdpna khfijpa</van-button>
     <div>{{ age }}</div>
-    <van-button type="warning" @click="setNameBian">不带参设111111置为9999</van-button>
+    <van-button type="warning" @click="setNameBian">不带参设11kahsbdkajdbkasdka999</van-button>
     <div>{{ username }}</div>
     <van-button type="warning" @click="setNameZhao">带参设置为1111111</van-button>
 
