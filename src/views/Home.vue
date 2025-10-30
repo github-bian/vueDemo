@@ -26,7 +26,7 @@
               <van-step>
                 <div class="box">
                   <div class="boxl">
-                    <p>【城市】物流状态111111111111</p>
+                    <p>【城市】物流状态1111111111112222222</p>
                     <p>2016-07-12 12:40</p>
                   </div>
                   <div class="boxr">
