@@ -330,3 +330,9 @@ git status                # a.txt 的改动回来了
 | 本地落后远程被拒     | `git pull --rebase && git push`                  |
 | 暂存未完成改动      | `git stash push -u -m "..."`                     |
 | 恢复暂存         | `git stash pop`                                  |
+
+
+
+
+
+哈哈哈哈哈
