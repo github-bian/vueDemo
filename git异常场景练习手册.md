@@ -59,6 +59,8 @@ git status                   # 变成 Changes not staged
 git restore a.txt            # 再丢弃，就彻底干净了
 ```
 
+
+
 ---
 
 ## 场景 3：commit 信息写错 / 漏提交了文件
@@ -312,19 +314,19 @@ git status                # a.txt 的改动回来了
 
 ## 场景速查表
 
-| 需求 | 命令 |
-|------|------|
-| 丢弃工作区改动 | `git restore <file>` |
-| 取消暂存 | `git restore --staged <file>` |
-| 改最近一次提交信息 | `git commit --amend -m "..."` |
-| 补文件进上次提交 | `git add <file> && git commit --amend --no-edit` |
-| 撤提交保留改动(暂存) | `git reset --soft HEAD~1` |
-| 撤提交保留改动(工作区) | `git reset --mixed HEAD~1` |
-| 撤提交并丢弃改动 | `git reset --hard HEAD~1` |
-| 放弃合并 | `git merge --abort` |
-| 放弃变基 | `git rebase --abort` |
-| 找回丢失的提交/分支 | `git reflog` |
-| 游离头指针建分支 | `git switch -c <name>` |
-| 本地落后远程被拒 | `git pull --rebase && git push` |
-| 暂存未完成改动 | `git stash push -u -m "..."` |
-| 恢复暂存 | `git stash pop` |
+| 需求           | 命令                                               |
+| ------------ | ------------------------------------------------ |
+| 丢弃工作区改动      | `git restore <file>`                             |
+| 取消暂存         | `git restore --staged <file>`                    |
+| 改最近一次提交信息    | `git commit --amend -m "..."`                    |
+| 补文件进上次提交     | `git add <file> && git commit --amend --no-edit` |
+| 撤提交保留改动(暂存)  | `git reset --soft HEAD~1`                        |
+| 撤提交保留改动(工作区) | `git reset --mixed HEAD~1`                       |
+| 撤提交并丢弃改动     | `git reset --hard HEAD~1`                        |
+| 放弃合并         | `git merge --abort`                              |
+| 放弃变基         | `git rebase --abort`                             |
+| 找回丢失的提交/分支   | `git reflog`                                     |
+| 游离头指针建分支     | `git switch -c <name>`                           |
+| 本地落后远程被拒     | `git pull --rebase && git push`                  |
+| 暂存未完成改动      | `git stash push -u -m "..."`                     |
+| 恢复暂存         | `git stash pop`                                  |
